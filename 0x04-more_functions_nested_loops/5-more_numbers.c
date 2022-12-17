@@ -1,20 +1,27 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints the numbers, from 0-9
+ * more_numbers - prints 10 times the numbers, from 0 to 14
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	int a = 0;
+	int b, c;
 
-	while (a <= 9)
+	b = c = 0;
+	while (b < 10)
 	{
-		if (a != 2 && a != 4)
-			_putchar(a + '0');
-		++a;
+		while (c <= 14)
+		{
+			if (c >= 10)
+				_putchar(c / 10 + '0');
+			_putchar(c % 10 + '0');
+			++c;
+		}
+		_putchar('\n');
+		c = 0;
+		b++;
 	}
-	_putchar('\n');
 }
