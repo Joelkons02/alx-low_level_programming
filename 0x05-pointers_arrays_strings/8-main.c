@@ -17,7 +17,7 @@ int main(void)
 {
 
 	    int array[5];
-
+	    void print_array(int *a, int n);
 
 
 	        array[0] = 98;
