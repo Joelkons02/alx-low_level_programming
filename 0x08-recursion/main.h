@@ -15,5 +15,7 @@ int wildmode(char *s1, char *s2);
 int exactmode(char *s1, char *s2);
 int palindrome_finder(char *s, int l);
 int _strlen_recursion(char *s);
+int prime_finder(int x, int y);
+
 
 #endif
