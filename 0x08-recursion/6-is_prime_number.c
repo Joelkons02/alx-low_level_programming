@@ -8,7 +8,6 @@
  *
  * Return: 1 if prime, 0 otherwise
  */
- 
 int prime_finder(int x, int y)
 {
 	if (x == y)
