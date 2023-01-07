@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * main - print number of arguments
+ *
+ * @argc: number of arguments
+ * @argv: arguments to program
+ *
+ * Return: 0 if successful
+ */
+
+int main(int argc, char **argv)
+{
+	printf("%d\n", argc - 1);
+	argv[0] = "";
+	return (0);
+}
