@@ -3,7 +3,7 @@
 /**
  * _abs - main function
  *
- * @n: absolute int 
+ * @n: absolute int
  * Return: int or int times negative
  *
  */
