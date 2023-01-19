@@ -5,7 +5,6 @@
  * @array: input int array.
  * @size: size of array.
  * @cmp: pointer to function
- * 
  *
  * Return: index of the first eement for which the cmp
  * function does not return 0. If no elements matches,
